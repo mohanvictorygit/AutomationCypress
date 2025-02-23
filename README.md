@@ -23,7 +23,7 @@ The below script are created under the e2e/tests folder:
 
 
 **All the Test data are maintained in the Fixture file**
-and the data is loaded dynamically while running the test cases.
+The Fixture data is loaded, while running the test cases.
 In the Cypress/fixtures folders below fixture files created as part of the project.
 1. products.json
    Test data for the products are stored in the JSON path and it is fetched dynamically during the execution.
@@ -39,4 +39,14 @@ In the Cypress/fixtures folders below fixture files created as part of the proje
 **Test Case (B):** Place order with multiple products (apply price calculation on checks) 
 **Test Case (C):** Add products in Wishlist and checkout from wishlist 
 **Test Case (D):** Search and validate results
+
+**Reports:**
+Reports are generated using the **mochawesome** Reports.
+
+**Configuration:**
+All the project related config is stored in the cypress.config.js
+
+**Packages.JSON**
+All the external npm packages that tests need to run are specified in the package. json file.
+
 
