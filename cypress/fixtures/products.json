@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "name": "Radiant Tee",
+      "price": 22,
+      "qty": 2,
+      "size":"M"
+    },
+    {
+      "name": "Breathe-Easy Tank",
+      "price": 34,
+      "qty": 1,
+      "size":"M"
+    }
+  ],
+  "taxRate": 0.10,
+  "discount": 5
+}
